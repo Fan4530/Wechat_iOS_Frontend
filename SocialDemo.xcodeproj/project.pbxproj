@@ -19,6 +19,9 @@
 		3FBB28C11F4CFFED00C4A990 /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28C01F4CFFED00C4A990 /* SCPost.m */; };
 		3FBB28C61F4D1E8100C4A990 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */; };
 		3FBB28C71F4D1E8100C4A990 /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */; };
+		3FBB28CB1F4D2B3C00C4A990 /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28CA1F4D2B3C00C4A990 /* SCLocationManager.m */; };
+		3FBB28CF1F4D2CED00C4A990 /* SCExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28CD1F4D2CED00C4A990 /* SCExploreViewController.m */; };
+		3FBB28D01F4D2CED00C4A990 /* SCExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB28CE1F4D2CED00C4A990 /* SCExploreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,11 @@
 		3FBB28C31F4D1E8100C4A990 /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeTableViewCell.h; sourceTree = "<group>"; };
 		3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeTableViewCell.m; sourceTree = "<group>"; };
 		3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeTableViewCell.xib; sourceTree = "<group>"; };
+		3FBB28C91F4D2B3C00C4A990 /* SCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLocationManager.h; sourceTree = "<group>"; };
+		3FBB28CA1F4D2B3C00C4A990 /* SCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLocationManager.m; sourceTree = "<group>"; };
+		3FBB28CC1F4D2CED00C4A990 /* SCExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCExploreViewController.h; sourceTree = "<group>"; };
+		3FBB28CD1F4D2CED00C4A990 /* SCExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCExploreViewController.m; sourceTree = "<group>"; };
+		3FBB28CE1F4D2CED00C4A990 /* SCExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCExploreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,8 @@
 		3FBB28721F4CE90400C4A990 /* SocialDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3FBB28CA1F4D2B3C00C4A990 /* SCLocationManager.m */,
+				3FBB28C91F4D2B3C00C4A990 /* SCLocationManager.h */,
 				3FBB28C21F4D197F00C4A990 /* View */,
 				3FBB28AA1F4CE9F900C4A990 /* model */,
 				3FBB28A61F4CE99600C4A990 /* ViewController */,
@@ -162,6 +172,9 @@
 				3FBB28C31F4D1E8100C4A990 /* SCHomeTableViewCell.h */,
 				3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */,
 				3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */,
+				3FBB28CC1F4D2CED00C4A990 /* SCExploreViewController.h */,
+				3FBB28CD1F4D2CED00C4A990 /* SCExploreViewController.m */,
+				3FBB28CE1F4D2CED00C4A990 /* SCExploreViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -288,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBB28D01F4D2CED00C4A990 /* SCExploreViewController.xib in Resources */,
 				3FBB28BB1F4CFD2900C4A990 /* SCHomeViewController.xib in Resources */,
 				3FBB28831F4CE90400C4A990 /* LaunchScreen.storyboard in Resources */,
 				3FBB28C71F4D1E8100C4A990 /* SCHomeTableViewCell.xib in Resources */,
@@ -316,8 +330,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBB28CF1F4D2CED00C4A990 /* SCExploreViewController.m in Sources */,
 				3FBB28781F4CE90400C4A990 /* AppDelegate.m in Sources */,
 				3FBB28B31F4CEB8600C4A990 /* SCTabBarController.m in Sources */,
+				3FBB28CB1F4D2B3C00C4A990 /* SCLocationManager.m in Sources */,
 				3FBB28751F4CE90400C4A990 /* main.m in Sources */,
 				3FBB28BA1F4CFD2900C4A990 /* SCHomeViewController.m in Sources */,
 				3FBB28C61F4D1E8100C4A990 /* SCHomeTableViewCell.m in Sources */,

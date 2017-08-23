@@ -17,6 +17,8 @@
 		3FBB28BA1F4CFD2900C4A990 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28B81F4CFD2900C4A990 /* SCHomeViewController.m */; };
 		3FBB28BB1F4CFD2900C4A990 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB28B91F4CFD2900C4A990 /* SCHomeViewController.xib */; };
 		3FBB28C11F4CFFED00C4A990 /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28C01F4CFFED00C4A990 /* SCPost.m */; };
+		3FBB28C61F4D1E8100C4A990 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */; };
+		3FBB28C71F4D1E8100C4A990 /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		3FBB28B91F4CFD2900C4A990 /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
 		3FBB28BF1F4CFFED00C4A990 /* SCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPost.h; sourceTree = "<group>"; };
 		3FBB28C01F4CFFED00C4A990 /* SCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPost.m; sourceTree = "<group>"; };
+		3FBB28C31F4D1E8100C4A990 /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeTableViewCell.h; sourceTree = "<group>"; };
+		3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeTableViewCell.m; sourceTree = "<group>"; };
+		3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		3FBB28721F4CE90400C4A990 /* SocialDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3FBB28C21F4D197F00C4A990 /* View */,
 				3FBB28AA1F4CE9F900C4A990 /* model */,
 				3FBB28A61F4CE99600C4A990 /* ViewController */,
 				3FBB28761F4CE90400C4A990 /* AppDelegate.h */,
@@ -153,6 +159,9 @@
 				3FBB28B81F4CFD2900C4A990 /* SCHomeViewController.m */,
 				3FBB28B91F4CFD2900C4A990 /* SCHomeViewController.xib */,
 				3FBB28B21F4CEB8600C4A990 /* SCTabBarController.m */,
+				3FBB28C31F4D1E8100C4A990 /* SCHomeTableViewCell.h */,
+				3FBB28C41F4D1E8100C4A990 /* SCHomeTableViewCell.m */,
+				3FBB28C51F4D1E8100C4A990 /* SCHomeTableViewCell.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -164,6 +173,13 @@
 				3FBB28C01F4CFFED00C4A990 /* SCPost.m */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		3FBB28C21F4D197F00C4A990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +290,7 @@
 			files = (
 				3FBB28BB1F4CFD2900C4A990 /* SCHomeViewController.xib in Resources */,
 				3FBB28831F4CE90400C4A990 /* LaunchScreen.storyboard in Resources */,
+				3FBB28C71F4D1E8100C4A990 /* SCHomeTableViewCell.xib in Resources */,
 				3FBB28801F4CE90400C4A990 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +320,7 @@
 				3FBB28B31F4CEB8600C4A990 /* SCTabBarController.m in Sources */,
 				3FBB28751F4CE90400C4A990 /* main.m in Sources */,
 				3FBB28BA1F4CFD2900C4A990 /* SCHomeViewController.m in Sources */,
+				3FBB28C61F4D1E8100C4A990 /* SCHomeTableViewCell.m in Sources */,
 				3FBB28C11F4CFFED00C4A990 /* SCPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
